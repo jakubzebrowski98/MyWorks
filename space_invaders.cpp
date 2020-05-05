@@ -1,3 +1,5 @@
+//nie znałem jeszcze wtedy podejscia obiektowego dlatego program wygląda jak wygląda ale wiem ze dziś napisałem bym to o niebo lepiej.
+
 #include <iostream>
 #include <windows.h>
 #include <conio.h>
