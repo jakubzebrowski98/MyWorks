@@ -1,0 +1,331 @@
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    background-color: lightgray;
+
+}
+.kategoria{
+    border-radius: 50px;
+    border: none;
+    background-color: darkgreen;
+    padding: 5px 30px;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+    font-family: 'MuseoModerno';
+    transition: 0.5;
+}
+.kategoria:hover{
+    background-color:green;
+    box-shadow: 0px 0px 10px rgba(0, 255, 56, 0.4);
+}
+
+header{
+    position: sticky;
+    height: 10vh;
+    background-color: #191919;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 3%;
+}
+
+h3{
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+.kup{
+    display: flex;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    padding: 3px 20px;
+    color: white;
+    cursor: pointer;
+    font-family: 'MuseoModerno';
+    margin-left: 42%;
+    margin-bottom: 50px;
+}
+.produkty{
+    padding: 100px;
+
+}
+.koszyk{
+    border: none;
+    color: white;
+    background-color: #191919;
+    margin-right: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+    font-family: 'MuseoModerno';
+    font-size: 16px;
+}
+
+.logo{
+    margin-right: auto;
+    color: white;
+    font-size: 3vh;
+    border-radius: 50px;
+    border: blue 2px;
+    cursor: pointer;
+    font-family: 'MuseoModerno';
+    letter-spacing: 0.10em;
+    transition: 0.3s;
+}
+.logo:hover{
+    font-size: 23px;
+}
+
+.zaloguj{
+    border-radius: 50px;
+    border: none;
+    background-color: blue;
+    padding: 3px 20px;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+
+    font-family: 'MuseoModerno';
+}
+.zaloguj:hover{
+
+        background-color:lightblue;
+        box-shadow: 0px 0px 10px rgba(0, 174, 255, 0.4);
+
+}
+.zarejestruj{
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    padding: 3px 20px;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+    font-family: 'MuseoModerno';
+}
+.zarejestruj:hover{
+
+    box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.4);
+
+}
+#img1{
+    width: 25%;
+    margin-left: 35%;
+}
+
+/* forma koszyka */
+
+.koszyk-all{
+    font-family: Helvetica;
+    color: white;
+    background-color: #191919;
+    margin: auto;
+    margin-top: 150px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5%;
+    max-width: 500px;
+    justify-content: center;
+}
+
+.zaloguj2{
+    margin-top: 5px;
+    border-radius: 50px;
+    border: none;
+    background-color: blue;
+    padding: 3px 30px;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'MuseoModerno';
+}
+
+.zarejestruj2{
+    margin-top: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: red;
+    padding: 3px 30px;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'MuseoModerno';
+}
+
+.user2{
+    margin: 20px;
+}
+
+/* tabela koszyk */
+
+.koszyk2{
+    font-family: Helvetica;
+    color: white;
+    background-color: #191919;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5%;
+    max-width: 150px;
+    justify-content: center;
+    border: none;
+}
+th{
+    padding: 2vh;
+    margin: 0px;
+}
+td{
+    padding: 1vw;
+}
+
+
+.card-header{
+    margin: 10px;
+    background-color: rgb(250, 79, 79);
+    border-radius: 5px;
+}
+.opis{
+    font-family: 'MuseoModerno';
+    color: black;
+    
+    margin-left: 41%;
+}
+/* msg */
+
+.login-box-msg{
+    margin: 15px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+/* text ze strony warunki + komunikaty o błędach - można by je oddzielić i  inaczej sformatować */
+
+
+/* div rejestracji */
+.register-box{
+    font-family: Helvetica;
+    color: white;
+    background-color: #191919;
+    margin: auto;
+    margin-top: 150px;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5%;
+    max-width: 500px;
+    justify-content: center;
+}
+
+.register-logo{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.icheck-primary{
+    margin: 15px;
+    margin-bottom: 0px;
+}
+
+.gotaccount{
+    margin: 20px;
+}
+
+.input-group.mb-3{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* inputy login i register */
+
+.input-group.mb-3 input{
+    width: 100%;
+    max-width: 180px;
+    margin: 0px;
+    border: none;
+    border-bottom: 1px solid #5F5FB2;
+    font-size: 0.9rem;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+
+
+/* div logowania */
+.login-box{
+    font-family: Helvetica;
+    color: white;
+    background-color: #191919;
+    margin: auto;
+    margin-top: 150px;
+    width: 30%;
+    max-width: 500px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.user{
+    font-family: 'MuseoModerno';
+    color: white;
+    margin-right: 10px;
+}
+.mb-1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.mb-0{
+    margin-top: 10px;
+}
+
+.mb-1 > a{
+    text-decoration: none;
+    color: blue;
+}
+.mb-0 > a{
+    text-decoration: none;
+    color: blue;
+}
+.mb-3{
+    margin-top: 10px;
+    border-radius: 50px;
+    border: none;
+    padding: 3px 30px;
+}
+
+/* button login i register */
+
+.btn.btn-primary.btn-block{
+    margin-top: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: blue;
+    padding: 3px 30px;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'MuseoModerno';
+    transition: 0.5;
+}
+
+.btn.btn-primary.btn-block:hover{
+    background-color: lightskyblue;
+}
